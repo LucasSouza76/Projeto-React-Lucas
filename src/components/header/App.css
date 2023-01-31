@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+}
+
+.header-container {
+  clear: both;
+}
+
+.header {
+  background-color: rgb(209, 11, 11);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.menu {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.menu-item a {
+  color: #333;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
