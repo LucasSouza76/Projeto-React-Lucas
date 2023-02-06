@@ -5,6 +5,7 @@
     border: 1px solid lightgray;
     border-radius: 10px;
     overflow: hidden;
+    border-color: black;
   }
   
 .product-image {

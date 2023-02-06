@@ -1,5 +1,6 @@
 import React from 'react';
 import './land.css';
+import ItemCount from '../itemCount/itemCont';
 
 const Product = (props) => {
   return (
@@ -8,6 +9,11 @@ const Product = (props) => {
       <h2 className="product-title">{props.title}</h2>
       <p className="product-description">{props.description}</p>
       <p className="product-price">{props.price}</p>
+      <ItemCount 
+      initialCount={1} 
+      stock={10} 
+      onAdd={(count) => console.log(count)} 
+      />
     </div>
   );
 };

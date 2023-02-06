@@ -1,0 +1,45 @@
+.add-to-cart-button {
+    width: 56%;
+    padding: 8px 16px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 16px;
+    text-align: center;
+    margin: 0 auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.add-to-cart-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
+}
+  
+.item-count-button {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.item-count-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
+}
+
+button:active {
+    background-color: red;
+}
+
+.buttons{
+    margin-bottom: 10px;
+}
+
+  
