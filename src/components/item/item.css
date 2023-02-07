@@ -1,0 +1,28 @@
+.product {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+    border-color: black;
+  }
+
+  
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+  
+.product-description {
+    font-size: 14px;
+    margin: 10px 0;
+}
+  
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+  
