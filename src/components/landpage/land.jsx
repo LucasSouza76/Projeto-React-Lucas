@@ -1,7 +1,8 @@
 import React from 'react';
 import './land.css';
 import ItemCount from '../itemCount/itemCont';
-import ItemList from '../itemList/itemList';
+// import ItemList from '../itemDetailContainer/itemDetailContainer';
+import ItemDetails from '../itemDetails/itemDetails';
 
 const Product = (props) => {
   return (
@@ -40,8 +41,7 @@ const App = () => {
         description="Uma descrição curta do produto 3"
         price="R$ 150,00"
       />
-    <ItemList />
-
+    <ItemDetails/>
     </div>
   );
 };
